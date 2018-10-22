@@ -22,6 +22,6 @@ export class HeaderComponent{
     // alert(feature)
     this.featureSelected.emit(feature)
     console.log("eventemitter:headercomponent")
-    console.info(this.featureSelected)
+    console.info("ss",this.featureSelected)
  }
 }
